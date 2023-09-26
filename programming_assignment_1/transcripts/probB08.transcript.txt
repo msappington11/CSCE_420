@@ -1,0 +1,178 @@
+iter=1, pathcost=0, heuristic=6, score=6, children=20, Qsize=0
+iter=2, pathcost=1, heuristic=5, score=6, children=20, Qsize=15
+iter=3, pathcost=1, heuristic=6, score=7, children=20, Qsize=26
+iter=4, pathcost=1, heuristic=6, score=7, children=20, Qsize=37
+iter=5, pathcost=1, heuristic=6, score=7, children=20, Qsize=52
+iter=6, pathcost=1, heuristic=6, score=7, children=20, Qsize=61
+iter=7, pathcost=2, heuristic=5, score=7, children=20, Qsize=72
+iter=8, pathcost=1, heuristic=6, score=7, children=20, Qsize=85
+iter=9, pathcost=1, heuristic=6, score=7, children=20, Qsize=90
+iter=10, pathcost=2, heuristic=5, score=7, children=20, Qsize=99
+iter=11, pathcost=2, heuristic=5, score=7, children=20, Qsize=106
+iter=12, pathcost=2, heuristic=5, score=7, children=20, Qsize=117
+iter=13, pathcost=1, heuristic=6, score=7, children=20, Qsize=126
+iter=14, pathcost=1, heuristic=6, score=7, children=20, Qsize=137
+iter=15, pathcost=1, heuristic=6, score=7, children=20, Qsize=143
+iter=16, pathcost=2, heuristic=5, score=7, children=20, Qsize=150
+iter=17, pathcost=2, heuristic=5, score=7, children=20, Qsize=153
+iter=18, pathcost=2, heuristic=5, score=7, children=20, Qsize=158
+iter=19, pathcost=2, heuristic=5, score=7, children=20, Qsize=163
+iter=20, pathcost=1, heuristic=6, score=7, children=20, Qsize=166
+iter=21, pathcost=2, heuristic=5, score=7, children=20, Qsize=170
+iter=22, pathcost=2, heuristic=5, score=7, children=20, Qsize=175
+iter=23, pathcost=1, heuristic=6, score=7, children=20, Qsize=178
+iter=24, pathcost=2, heuristic=5, score=7, children=20, Qsize=189
+iter=25, pathcost=2, heuristic=5, score=7, children=20, Qsize=192
+iter=26, pathcost=1, heuristic=7, score=8, children=20, Qsize=195
+iter=27, pathcost=2, heuristic=6, score=8, children=20, Qsize=202
+iter=28, pathcost=2, heuristic=6, score=8, children=20, Qsize=207
+iter=29, pathcost=3, heuristic=5, score=8, children=20, Qsize=222
+iter=30, pathcost=3, heuristic=5, score=8, children=20, Qsize=234
+iter=31, pathcost=3, heuristic=5, score=8, children=20, Qsize=243
+iter=32, pathcost=3, heuristic=5, score=8, children=20, Qsize=250
+iter=33, pathcost=3, heuristic=5, score=8, children=20, Qsize=259
+iter=34, pathcost=3, heuristic=5, score=8, children=20, Qsize=268
+iter=35, pathcost=2, heuristic=6, score=8, children=20, Qsize=279
+iter=36, pathcost=2, heuristic=6, score=8, children=20, Qsize=288
+iter=37, pathcost=3, heuristic=5, score=8, children=20, Qsize=298
+iter=38, pathcost=3, heuristic=5, score=8, children=20, Qsize=303
+iter=39, pathcost=3, heuristic=5, score=8, children=20, Qsize=308
+iter=40, pathcost=3, heuristic=5, score=8, children=20, Qsize=310
+iter=41, pathcost=4, heuristic=4, score=8, children=20, Qsize=316
+iter=42, pathcost=2, heuristic=6, score=8, children=20, Qsize=326
+iter=43, pathcost=2, heuristic=6, score=8, children=20, Qsize=336
+iter=44, pathcost=2, heuristic=6, score=8, children=20, Qsize=344
+iter=45, pathcost=3, heuristic=5, score=8, children=20, Qsize=353
+iter=46, pathcost=3, heuristic=5, score=8, children=20, Qsize=362
+iter=47, pathcost=4, heuristic=4, score=8, children=20, Qsize=369
+iter=48, pathcost=2, heuristic=6, score=8, children=20, Qsize=383
+iter=49, pathcost=3, heuristic=5, score=8, children=20, Qsize=393
+iter=50, pathcost=3, heuristic=5, score=8, children=20, Qsize=396
+iter=51, pathcost=3, heuristic=5, score=8, children=20, Qsize=407
+iter=52, pathcost=3, heuristic=5, score=8, children=20, Qsize=409
+iter=53, pathcost=2, heuristic=6, score=8, children=20, Qsize=414
+iter=54, pathcost=2, heuristic=6, score=8, children=20, Qsize=423
+iter=55, pathcost=3, heuristic=5, score=8, children=20, Qsize=434
+iter=56, pathcost=3, heuristic=5, score=8, children=20, Qsize=436
+iter=57, pathcost=3, heuristic=5, score=8, children=20, Qsize=439
+iter=58, pathcost=3, heuristic=5, score=8, children=20, Qsize=444
+iter=59, pathcost=2, heuristic=6, score=8, children=20, Qsize=447
+iter=60, pathcost=3, heuristic=5, score=8, children=20, Qsize=458
+iter=61, pathcost=3, heuristic=5, score=8, children=20, Qsize=465
+iter=62, pathcost=4, heuristic=4, score=8, children=20, Qsize=469
+iter=63, pathcost=4, heuristic=4, score=8, children=20, Qsize=478
+iter=64, pathcost=2, heuristic=6, score=8, children=20, Qsize=485
+iter=65, pathcost=3, heuristic=5, score=8, children=20, Qsize=496
+iter=66, pathcost=5, heuristic=3, score=8, children=20, Qsize=501
+iter=67, pathcost=3, heuristic=5, score=8, children=20, Qsize=507
+iter=68, pathcost=4, heuristic=4, score=8, children=20, Qsize=514
+iter=69, pathcost=2, heuristic=6, score=8, children=20, Qsize=521
+iter=70, pathcost=3, heuristic=5, score=8, children=20, Qsize=532
+iter=71, pathcost=2, heuristic=6, score=8, children=20, Qsize=545
+iter=72, pathcost=3, heuristic=5, score=8, children=20, Qsize=552
+iter=73, pathcost=4, heuristic=4, score=8, children=20, Qsize=553
+iter=74, pathcost=3, heuristic=5, score=8, children=20, Qsize=563
+iter=75, pathcost=4, heuristic=4, score=8, children=20, Qsize=566
+iter=76, pathcost=2, heuristic=6, score=8, children=20, Qsize=573
+iter=77, pathcost=3, heuristic=5, score=8, children=20, Qsize=584
+iter=78, pathcost=3, heuristic=5, score=8, children=20, Qsize=587
+iter=79, pathcost=1, heuristic=7, score=8, children=20, Qsize=588
+iter=80, pathcost=2, heuristic=6, score=8, children=20, Qsize=597
+iter=81, pathcost=2, heuristic=6, score=8, children=20, Qsize=604
+iter=82, pathcost=2, heuristic=6, score=8, children=20, Qsize=612
+iter=83, pathcost=2, heuristic=6, score=8, children=20, Qsize=619
+iter=84, pathcost=2, heuristic=6, score=8, children=20, Qsize=628
+iter=85, pathcost=3, heuristic=5, score=8, children=20, Qsize=638
+iter=86, pathcost=3, heuristic=5, score=8, children=20, Qsize=645
+iter=87, pathcost=2, heuristic=6, score=8, children=20, Qsize=649
+iter=88, pathcost=3, heuristic=5, score=8, children=20, Qsize=653
+iter=89, pathcost=3, heuristic=5, score=8, children=20, Qsize=655
+iter=90, pathcost=2, heuristic=6, score=8, children=20, Qsize=662
+iter=91, pathcost=2, heuristic=6, score=8, children=20, Qsize=667
+iter=92, pathcost=3, heuristic=5, score=8, children=20, Qsize=672
+iter=93, pathcost=2, heuristic=6, score=8, children=20, Qsize=679
+iter=94, pathcost=3, heuristic=5, score=8, children=20, Qsize=686
+iter=95, pathcost=2, heuristic=6, score=8, children=20, Qsize=688
+iter=96, pathcost=2, heuristic=6, score=8, children=20, Qsize=701
+iter=97, pathcost=2, heuristic=6, score=8, children=20, Qsize=702
+iter=98, pathcost=2, heuristic=6, score=8, children=20, Qsize=712
+iter=99, pathcost=2, heuristic=6, score=8, children=20, Qsize=723
+iter=100, pathcost=2, heuristic=6, score=8, children=20, Qsize=728
+iter=101, pathcost=2, heuristic=6, score=8, children=20, Qsize=732
+iter=102, pathcost=2, heuristic=6, score=8, children=20, Qsize=742
+iter=103, pathcost=5, heuristic=3, score=8, children=20, Qsize=748
+iter=104, pathcost=2, heuristic=6, score=8, children=20, Qsize=755
+iter=105, pathcost=2, heuristic=6, score=8, children=20, Qsize=760
+iter=106, pathcost=2, heuristic=6, score=8, children=20, Qsize=768
+iter=107, pathcost=3, heuristic=5, score=8, children=20, Qsize=778
+iter=108, pathcost=2, heuristic=6, score=8, children=20, Qsize=793
+iter=109, pathcost=4, heuristic=4, score=8, children=20, Qsize=798
+iter=110, pathcost=2, heuristic=6, score=8, children=20, Qsize=811
+iter=111, pathcost=5, heuristic=3, score=8, children=20, Qsize=818
+iter=112, pathcost=3, heuristic=5, score=8, children=20, Qsize=833
+iter=113, pathcost=6, heuristic=2, score=8, children=20, Qsize=842
+iter=114, pathcost=6, heuristic=2, score=8, children=20, Qsize=853
+iter=115, pathcost=4, heuristic=4, score=8, children=20, Qsize=867
+iter=116, pathcost=7, heuristic=1, score=8, children=20, Qsize=874
+iter=117, pathcost=7, heuristic=1, score=8, children=20, Qsize=881
+iter=118, pathcost=5, heuristic=3, score=8, children=20, Qsize=891
+
+
+Solution path:
+move 0, pathcost=0, heuristic=6, f(n)=6
+['A', 'D', 'F']
+['B', 'J']
+['G']
+[]
+['C', 'E', 'H', 'I']
+move 1, pathcost=1, heuristic=6, f(n)=7
+['A', 'D', 'F']
+['B', 'J']
+['G']
+['I']
+['C', 'E', 'H']
+move 2, pathcost=2, heuristic=6, f(n)=8
+['A', 'D', 'F']
+['B', 'J']
+[]
+['I', 'G']
+['C', 'E', 'H']
+move 3, pathcost=3, heuristic=5, f(n)=8
+['A', 'D', 'F']
+['B', 'J']
+['H']
+['I', 'G']
+['C', 'E']
+move 4, pathcost=4, heuristic=4, f(n)=8
+['A', 'D', 'F', 'J']
+['B']
+['H']
+['I', 'G']
+['C', 'E']
+move 5, pathcost=5, heuristic=3, f(n)=8
+['A', 'D', 'F', 'J', 'E']
+['B']
+['H']
+['I', 'G']
+['C']
+move 6, pathcost=6, heuristic=2, f(n)=8
+['A', 'D', 'F', 'J', 'E']
+[]
+['H']
+['I', 'G']
+['C', 'B']
+move 7, pathcost=7, heuristic=1, f(n)=8
+['A', 'D', 'F', 'J', 'E', 'G']
+[]
+['H']
+['I']
+['C', 'B']
+move 8, pathcost=8, heuristic=0, f(n)=8
+['A', 'D', 'F', 'J', 'E', 'G']
+[]
+['H', 'I']
+[]
+['C', 'B']
+
+
+statistics: planlen: 8	 iters: 119	 maxq: 903

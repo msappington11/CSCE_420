@@ -1,0 +1,65 @@
+iter=1, pathcost=0, heuristic=5, score=5, children=6, Qsize=0
+iter=2, pathcost=1, heuristic=5, score=6, children=6, Qsize=5
+iter=3, pathcost=1, heuristic=5, score=6, children=6, Qsize=8
+iter=4, pathcost=1, heuristic=5, score=6, children=6, Qsize=9
+iter=5, pathcost=1, heuristic=5, score=6, children=6, Qsize=10
+iter=6, pathcost=1, heuristic=5, score=6, children=6, Qsize=13
+iter=7, pathcost=1, heuristic=5, score=6, children=6, Qsize=14
+iter=8, pathcost=2, heuristic=4, score=6, children=6, Qsize=15
+iter=9, pathcost=2, heuristic=4, score=6, children=6, Qsize=16
+iter=10, pathcost=3, heuristic=3, score=6, children=6, Qsize=19
+iter=11, pathcost=2, heuristic=5, score=7, children=6, Qsize=22
+iter=12, pathcost=2, heuristic=5, score=7, children=6, Qsize=21
+iter=13, pathcost=3, heuristic=4, score=7, children=6, Qsize=22
+iter=14, pathcost=3, heuristic=4, score=7, children=6, Qsize=23
+iter=15, pathcost=4, heuristic=3, score=7, children=6, Qsize=26
+iter=16, pathcost=4, heuristic=3, score=7, children=6, Qsize=29
+iter=17, pathcost=2, heuristic=5, score=7, children=6, Qsize=32
+iter=18, pathcost=2, heuristic=5, score=7, children=6, Qsize=33
+iter=19, pathcost=2, heuristic=5, score=7, children=6, Qsize=36
+iter=20, pathcost=2, heuristic=5, score=7, children=6, Qsize=36
+iter=21, pathcost=5, heuristic=2, score=7, children=6, Qsize=39
+iter=22, pathcost=2, heuristic=5, score=7, children=6, Qsize=40
+iter=23, pathcost=2, heuristic=5, score=7, children=6, Qsize=43
+iter=24, pathcost=2, heuristic=5, score=7, children=6, Qsize=46
+iter=25, pathcost=4, heuristic=3, score=7, children=6, Qsize=47
+iter=26, pathcost=6, heuristic=1, score=7, children=6, Qsize=50
+iter=27, pathcost=5, heuristic=2, score=7, children=6, Qsize=52
+
+
+Solution path:
+move 0, pathcost=0, heuristic=5, f(n)=5
+['B', 'C', 'D']
+['A']
+['E']
+move 1, pathcost=1, heuristic=5, f(n)=6
+['B', 'C', 'D']
+[]
+['E', 'A']
+move 2, pathcost=2, heuristic=4, f(n)=6
+['B', 'C']
+['D']
+['E', 'A']
+move 3, pathcost=3, heuristic=3, f(n)=6
+['B']
+['D', 'C']
+['E', 'A']
+move 4, pathcost=4, heuristic=3, f(n)=7
+['B', 'A']
+['D', 'C']
+['E']
+move 5, pathcost=5, heuristic=2, f(n)=7
+['B', 'A']
+['D', 'C', 'E']
+[]
+move 6, pathcost=6, heuristic=1, f(n)=7
+['B']
+['D', 'C', 'E']
+['A']
+move 7, pathcost=7, heuristic=0, f(n)=7
+[]
+['D', 'C', 'E']
+['A', 'B']
+
+
+statistics: planlen: 7	 iters: 28	 maxq: 55

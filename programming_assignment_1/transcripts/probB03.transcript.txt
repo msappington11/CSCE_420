@@ -1,0 +1,35 @@
+iter=1, pathcost=0, heuristic=3, score=3, children=20, Qsize=0
+iter=2, pathcost=1, heuristic=2, score=3, children=20, Qsize=19
+iter=3, pathcost=1, heuristic=2, score=3, children=20, Qsize=30
+iter=4, pathcost=2, heuristic=1, score=3, children=20, Qsize=40
+iter=5, pathcost=2, heuristic=1, score=3, children=20, Qsize=55
+
+
+Solution path:
+move 0, pathcost=0, heuristic=3, f(n)=3
+['D', 'E', 'H', 'I', 'J']
+['G']
+['B']
+['A', 'C']
+['F']
+move 1, pathcost=1, heuristic=2, f(n)=3
+['D', 'E', 'H', 'I', 'J']
+['G', 'B']
+[]
+['A', 'C']
+['F']
+move 2, pathcost=2, heuristic=1, f(n)=3
+['D', 'E', 'H', 'I', 'J']
+['G', 'B']
+['C']
+['A']
+['F']
+move 3, pathcost=3, heuristic=0, f(n)=3
+['D', 'E', 'H', 'I', 'J', 'F']
+['G', 'B']
+['C']
+['A']
+[]
+
+
+statistics: planlen: 3	 iters: 6	 maxq: 58

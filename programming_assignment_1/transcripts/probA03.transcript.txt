@@ -1,0 +1,25 @@
+iter=1, pathcost=0, heuristic=3, score=3, children=6, Qsize=0
+iter=2, pathcost=1, heuristic=2, score=3, children=6, Qsize=5
+iter=3, pathcost=2, heuristic=1, score=3, children=6, Qsize=6
+
+
+Solution path:
+move 0, pathcost=0, heuristic=3, f(n)=3
+['C', 'E']
+['A', 'D']
+['B']
+move 1, pathcost=1, heuristic=2, f(n)=3
+['C', 'E']
+['A', 'D', 'B']
+[]
+move 2, pathcost=2, heuristic=1, f(n)=3
+['C']
+['A', 'D', 'B']
+['E']
+move 3, pathcost=3, heuristic=0, f(n)=3
+[]
+['A', 'D', 'B', 'C']
+['E']
+
+
+statistics: planlen: 3	 iters: 4	 maxq: 10

@@ -1,4 +1,6 @@
-class puzzle():
+from copy import deepcopy
+
+class Puzzle():
 
     def __init__(self, stacks, goal):
         self.stacks = stacks
@@ -6,11 +8,11 @@ class puzzle():
 
 
     def copy(self):
-        new_stacks = self.stacks.copy()
+        new_stacks = [stack for stack in self.stacks]
         for i in range(len(new_stacks)):
-            new_stacks[i] = new_stacks[i].copy()
+            new_stacks[i] = [item for item in new_stacks[i]]
 
-        return puzzle(new_stacks, self.goal)
+        return Puzzle(new_stacks, self.goal)
 
 
     def move_block(self, pos, dest):
@@ -21,31 +23,39 @@ class puzzle():
             print('invalid destination')
             return
 
-        self.stacks[dest].append(self.stacks[pos].pop())
+        if len(self.stacks[pos]) > 0:
+            self.stacks[dest].append(self.stacks[pos].pop())
 
 
-    def print_puzzle(self):
-        print('Current:')
-        for row in self.stacks:
-            print(row)
+    def h(self):
+        h = 0
+        for i in range(len(self.stacks)):
+            j = 0
+            while j < len(self.goal[i]) and j < len(self.stacks[i]) and self.stacks[i][j] == self.goal[i][j]:
+                j += 1
+            h += len(self.stacks[i]) - j
+        return h
+    # start from bottom of each stack and continue up until you find a block out of place
+    # once found, count the number of blocks on top
+    
 
-        print('\nGoal:')
-        for row in self.goal:
-            print(row)
-
-
+    def is_solved(self):
+        return self.hash_item(self.stacks) == self.hash_item(self.goal)
+    
+    
     def hash(self):
         return self.hash_item(self.stacks)
-
+    
     
     def hash_item(self, item):
         hashable = []
         for e in item:
             hashable.append(tuple(e))
         return tuple(hashable)
-
     
-    def is_solved(self):
-        return self.hash_item(self.stacks) == self.hash_item(self.goal)
+    
+    def print_puzzle(self):
+        for row in self.stacks:
+            print(row)
 
     

@@ -1,0 +1,56 @@
+iter=1, pathcost=0, heuristic=6, score=6, children=20, Qsize=0
+iter=2, pathcost=1, heuristic=5, score=6, children=20, Qsize=15
+iter=3, pathcost=1, heuristic=5, score=6, children=20, Qsize=26
+iter=4, pathcost=2, heuristic=4, score=6, children=20, Qsize=36
+iter=5, pathcost=2, heuristic=4, score=6, children=20, Qsize=43
+iter=6, pathcost=3, heuristic=3, score=6, children=20, Qsize=53
+iter=7, pathcost=4, heuristic=2, score=6, children=20, Qsize=60
+iter=8, pathcost=5, heuristic=1, score=6, children=20, Qsize=71
+
+
+Solution path:
+move 0, pathcost=0, heuristic=6, f(n)=6
+['J']
+[]
+['B', 'C', 'E']
+['A', 'D', 'G', 'I']
+['F', 'H']
+move 1, pathcost=1, heuristic=5, f(n)=6
+['J']
+[]
+['B', 'C']
+['A', 'D', 'G', 'I']
+['F', 'H', 'E']
+move 2, pathcost=2, heuristic=4, f(n)=6
+['J', 'I']
+[]
+['B', 'C']
+['A', 'D', 'G']
+['F', 'H', 'E']
+move 3, pathcost=3, heuristic=3, f(n)=6
+['J', 'I', 'G']
+[]
+['B', 'C']
+['A', 'D']
+['F', 'H', 'E']
+move 4, pathcost=4, heuristic=2, f(n)=6
+['J', 'I', 'G', 'C']
+[]
+['B']
+['A', 'D']
+['F', 'H', 'E']
+move 5, pathcost=5, heuristic=1, f(n)=6
+['J', 'I', 'G', 'C']
+[]
+['B', 'D']
+['A']
+['F', 'H', 'E']
+move 6, pathcost=6, heuristic=0, f(n)=6
+['J', 'I', 'G', 'C']
+[]
+['B', 'D', 'A']
+[]
+['F', 'H', 'E']
+
+
+statistics: planlen: 6	 iters: 9	 maxq: 83
