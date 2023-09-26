@@ -1,5 +1,5 @@
 The program can be run by entering the following command:
-    python blocksworld.py <filename> -MAX_ITERS <int>
+    python3 blocksworld.py <filename> -MAX_ITERS <int>
 
 The filename should be the name of the test file without any folders (probA03.bwp)
 'all' can also be entered as the filename, which will run all tests and output the stats in the results_stats.txt file
