@@ -131,6 +131,10 @@ print('UCH:', args.UCH)
 solved = DPLL_SAT(args.filename, args.literals, args.UCH)
 if solved:
     print('Solved with model:', solved)
+    print('True values:')
+    for key in solved.keys():
+        if solved[key] == 1:
+            print(key)
 else:
     print('Unsatisfiable')
 print('DPLL Calls:', count)
