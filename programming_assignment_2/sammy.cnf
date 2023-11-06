@@ -36,7 +36,8 @@
 -L3B -C3B
 
 # 
-# #all contents different
+# 
+# # all contents different
 # (implies C1W (and (not C2W) (not C3W)))
 
 -C2W -C1W
@@ -82,6 +83,7 @@
 -C1B -C3B
 -C2B -C3B
 
+# 
 # 
 # # observed color implies either box is that color or contains both
 # (implies O1Y (or C1Y C1B))
@@ -184,4 +186,110 @@
 # (implies C3B (not C3W))
 
 -C3B -C3W
+
+# 
+# 
+# # cant have multiple initial labels
+# (implies L1Y (not L1W))
+
+-L1Y -L1W
+
+# (implies L1Y (not L1B))
+
+-L1Y -L1B
+
+# (implies L1W (not L1Y))
+
+-L1W -L1Y
+
+# (implies L1W (not L1B))
+
+-L1W -L1B
+
+# (implies L1B (not L1Y))
+
+-L1B -L1Y
+
+# (implies L1B (not L1W))
+
+-L1B -L1W
+
+# 
+# (implies L2Y (not L2W))
+
+-L2Y -L2W
+
+# (implies L2Y (not L2B))
+
+-L2Y -L2B
+
+# (implies L2W (not L2Y))
+
+-L2W -L2Y
+
+# (implies L2W (not L2B))
+
+-L2W -L2B
+
+# (implies L2B (not L2Y))
+
+-L2B -L2Y
+
+# (implies L2B (not L2W))
+
+-L2B -L2W
+
+# 
+# (implies L3Y (not L3W))
+
+-L3Y -L3W
+
+# (implies L3Y (not L3B))
+
+-L3Y -L3B
+
+# (implies L3W (not L3Y))
+
+-L3W -L3Y
+
+# (implies L3W (not L3B))
+
+-L3W -L3B
+
+# (implies L3B (not L3Y))
+
+-L3B -L3Y
+
+# (implies L3B (not L3W))
+
+-L3B -L3W
+
+# 
+# 
+# # cant have multple observations
+# (implies O1Y (not O1W))
+
+-O1Y -O1W
+
+# (implies O1Y (not O1W))
+
+-O1Y -O1W
+
+# 
+# (implies O2Y (not O2W))
+
+-O2Y -O2W
+
+# (implies O2Y (not O2W))
+
+-O2Y -O2W
+
+# 
+# (implies O3Y (not O3W))
+
+-O3Y -O3W
+
+# (implies O3Y (not O3W))
+
+-O3Y -O3W
 

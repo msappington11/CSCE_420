@@ -29,10 +29,10 @@ def evaluate_clause(clause, model):
     for symbol in clause.split(' '):
         symbol = remove_neg(symbol)
         # if value true, return 1
-        if (symbol['is_neg'] and symbol['value'] == -1) or (not symbol['is_neg'] and symbol['value'] == 1):
+        if (symbol['is_neg'] and model[symbol['value']] == -1) or (not symbol['is_neg'] and model[symbol['value']] == 1):
             return 1
         # if value false, add to count
-        if (symbol['is_neg'] and symbol['value'] == 1) or (not symbol['is_neg'] and symbol['value'] == -1):
+        if (symbol['is_neg'] and model[symbol['value']] == 1) or (not symbol['is_neg'] and model[symbol['value']] == -1):
             false_count += 1
     # if number of false == length of clause, return -1        
     if false_count == len(clause.split(' ')):
@@ -43,7 +43,10 @@ def evaluate_clause(clause, model):
 
 
 # find clauses where all but 1 literal is false and last is unknown
-def find_unit_clause(clauses, model):
+def find_unit_clause(clauses, model, uch):
+    if not uch: # if disabled, return
+        return ( None, None )
+    
     for clause in clauses: # for each clause
         false_count = 0 # should be 1 less than the amount of literals
         unknown = None # should be the 1 unknown literal
@@ -73,43 +76,61 @@ def DPLL_SAT(filename, literals, uch): # filename contains the sentence
     for symbol in symbols:
         model[symbol] = 0
     for literal in literals:
-        model[literal] = 1 # set negated version to false?
+        model[literal] = 1
 
-    DPLL(clauses, symbols, model, uch)
+    return DPLL(clauses, symbols, model, uch)
 
 
 def DPLL(clauses, symbols, model, uch):
-    print(count)
+    global count
     count += 1
-    print(model)
     # evaluate each clause with values in model, if all true, return true
     all_true = True
     for clause in clauses:
         truth = evaluate_clause(clause, model)
         if truth == -1: # if there is a clause thats false, return false
+            print('Backtracking')
             return False
         all_true = all_true and truth == 1 # if the truth of a clause is false or unknown, all_true will be false
     if all_true: # if all clauses true, return true
-        return True
+        return model
     
-    P, value = find_unit_clause(clauses, model)
+    P, value = find_unit_clause(clauses, model, uch)
     if P is not None:
-        # might be messed up since messing with shared memory
-        symbols.remove(P)
-        return DPLL(clauses, symbols, model | {P: value}, uch)
+        symbols_copy = set(symbols)
+        symbols_copy.remove(P)
+        print(f'Forced assignment for UCH: {P}: {value}')
+        return DPLL(clauses, symbols_copy, dict(model | {P: value}), uch)
     
     P = next(iter(symbols))
-    symbols.remove(P) # might be bad
-    return DPLL(clauses, symbols, model | {P: True}, uch) or DPLL(clauses, symbols, model | {P: False}, uch)
+    symbols_copy = set(symbols)
+    symbols_copy.remove(P)
+
+    print(f'Guessing assignment: {P}: 1')
+    left = DPLL(clauses, symbols_copy, dict(model | {P: 1}), uch)
+    if not left:
+        print(f'Guessing assignment: {P}: -1')
+        right = DPLL(clauses, symbols_copy, dict(model | {P: -1}), uch)
+    return left or right
+    # return DPLL(clauses, symbols_copy, dict(model | {P: 1}), uch) or DPLL(clauses, symbols_copy, dict(model | {P: -1}), uch)
     
 
             
 
 
-parser = argparse.ArgumentParser()
+parser = argparse.ArgumentParser(prefix_chars='+')
 parser.add_argument("filename", help="Input filename")
 parser.add_argument("literals", nargs="*", help="Literals")
-parser.add_argument("UCH", action="store_true", help="Use UCH option")
+parser.add_argument("+UCH", action="store_true", help="Use UCH option")
 args = parser.parse_args()
 
-DPLL_SAT(args.filename, args.literals, args.UCH)
+print('filename:', args.filename)
+print('literals:', args.literals)
+print('UCH:', args.UCH)
+
+solved = DPLL_SAT(args.filename, args.literals, args.UCH)
+if solved:
+    print('Solved with model:', solved)
+else:
+    print('Unsatisfiable')
+print('DPLL Calls:', count)
