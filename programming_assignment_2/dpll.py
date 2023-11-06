@@ -3,6 +3,7 @@ from convCNF import convCNF
 
 count = 0
 
+# remove initial facts from symbols set
 def parse_input(filename): # append command line stuff
     file = open(filename, 'r')
     clauses = []
@@ -72,16 +73,19 @@ def find_unit_clause(clauses, model, uch):
 
 def DPLL_SAT(filename, literals, uch): # filename contains the sentence
     clauses, symbols = parse_input(filename)
+
     model = {}
     for symbol in symbols:
         model[symbol] = 0
     for literal in literals:
-        model[literal] = 1
+        model[literal] = 1 # set literals to true
+        symbols.remove(literal) # remove from symbols list so they dont get overriden
 
     return DPLL(clauses, symbols, model, uch)
 
 
 def DPLL(clauses, symbols, model, uch):
+    print(model)
     global count
     count += 1
     # evaluate each clause with values in model, if all true, return true
@@ -99,21 +103,20 @@ def DPLL(clauses, symbols, model, uch):
     if P is not None:
         symbols_copy = set(symbols)
         symbols_copy.remove(P)
-        print(f'Forced assignment for UCH: {P}: {value}')
+        print(f'Forced assignment from UCH: {P}={value}')
         return DPLL(clauses, symbols_copy, dict(model | {P: value}), uch)
     
+    # take random P from set
     P = next(iter(symbols))
     symbols_copy = set(symbols)
     symbols_copy.remove(P)
 
-    print(f'Guessing assignment: {P}: 1')
+    print(f'Guessing assignment: {P}=1')
     left = DPLL(clauses, symbols_copy, dict(model | {P: 1}), uch)
     if not left:
-        print(f'Guessing assignment: {P}: -1')
+        print(f'Guessing assignment: {P}=-1')
         right = DPLL(clauses, symbols_copy, dict(model | {P: -1}), uch)
-    return left or right
-    # return DPLL(clauses, symbols_copy, dict(model | {P: 1}), uch) or DPLL(clauses, symbols_copy, dict(model | {P: -1}), uch)
-    
+    return left or right    
 
             
 
@@ -130,11 +133,13 @@ print('UCH:', args.UCH)
 
 solved = DPLL_SAT(args.filename, args.literals, args.UCH)
 if solved:
-    print('Solved with model:', solved)
-    print('True values:')
+    print('\nSolved with model:\n', solved)
+    print('True values: ', end='')
     for key in solved.keys():
         if solved[key] == 1:
-            print(key)
+            print(key, end=' ')
+    print()
 else:
-    print('Unsatisfiable')
+    print('\nUnsatisfiable')
 print('DPLL Calls:', count)
+print('UCH:', args.UCH)

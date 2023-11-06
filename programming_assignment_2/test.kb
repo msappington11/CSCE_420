@@ -1,6 +1,0 @@
-(or (not D) C)
-(or (not A) (not B) E)
-(or D (not E))
-(or (not C) E)
-(not B)
-D
