@@ -1,0 +1,56 @@
+filename: 3queens.cnf
+literals: []
+UCH: True
+{'Q02': 0, 'Q21': 0, 'Q01': 0, 'Q12': 0, 'Q20': 0, 'Q22': 0, 'Q11': 0, 'Q00': 0, 'Q10': 0}
+Guessing assignment: Q02=1
+{'Q02': 1, 'Q21': 0, 'Q01': 0, 'Q12': 0, 'Q20': 0, 'Q22': 0, 'Q11': 0, 'Q00': 0, 'Q10': 0}
+Forced assignment from UCH: Q00=-1
+{'Q02': 1, 'Q21': 0, 'Q01': 0, 'Q12': 0, 'Q20': 0, 'Q22': 0, 'Q11': 0, 'Q00': -1, 'Q10': 0}
+Forced assignment from UCH: Q01=-1
+{'Q02': 1, 'Q21': 0, 'Q01': -1, 'Q12': 0, 'Q20': 0, 'Q22': 0, 'Q11': 0, 'Q00': -1, 'Q10': 0}
+Forced assignment from UCH: Q12=-1
+{'Q02': 1, 'Q21': 0, 'Q01': -1, 'Q12': -1, 'Q20': 0, 'Q22': 0, 'Q11': 0, 'Q00': -1, 'Q10': 0}
+Forced assignment from UCH: Q22=-1
+{'Q02': 1, 'Q21': 0, 'Q01': -1, 'Q12': -1, 'Q20': 0, 'Q22': -1, 'Q11': 0, 'Q00': -1, 'Q10': 0}
+Forced assignment from UCH: Q11=-1
+{'Q02': 1, 'Q21': 0, 'Q01': -1, 'Q12': -1, 'Q20': 0, 'Q22': -1, 'Q11': -1, 'Q00': -1, 'Q10': 0}
+Forced assignment from UCH: Q10=1
+{'Q02': 1, 'Q21': 0, 'Q01': -1, 'Q12': -1, 'Q20': 0, 'Q22': -1, 'Q11': -1, 'Q00': -1, 'Q10': 1}
+Forced assignment from UCH: Q21=1
+{'Q02': 1, 'Q21': 1, 'Q01': -1, 'Q12': -1, 'Q20': 0, 'Q22': -1, 'Q11': -1, 'Q00': -1, 'Q10': 1}
+Backtracking
+Guessing assignment: Q02=-1
+{'Q02': -1, 'Q21': 0, 'Q01': 0, 'Q12': 0, 'Q20': 0, 'Q22': 0, 'Q11': 0, 'Q00': 0, 'Q10': 0}
+Guessing assignment: Q21=1
+{'Q02': -1, 'Q21': 1, 'Q01': 0, 'Q12': 0, 'Q20': 0, 'Q22': 0, 'Q11': 0, 'Q00': 0, 'Q10': 0}
+Forced assignment from UCH: Q20=-1
+{'Q02': -1, 'Q21': 1, 'Q01': 0, 'Q12': 0, 'Q20': -1, 'Q22': 0, 'Q11': 0, 'Q00': 0, 'Q10': 0}
+Forced assignment from UCH: Q22=-1
+{'Q02': -1, 'Q21': 1, 'Q01': 0, 'Q12': 0, 'Q20': -1, 'Q22': -1, 'Q11': 0, 'Q00': 0, 'Q10': 0}
+Forced assignment from UCH: Q12=1
+{'Q02': -1, 'Q21': 1, 'Q01': 0, 'Q12': 1, 'Q20': -1, 'Q22': -1, 'Q11': 0, 'Q00': 0, 'Q10': 0}
+Backtracking
+Guessing assignment: Q21=-1
+{'Q02': -1, 'Q21': -1, 'Q01': 0, 'Q12': 0, 'Q20': 0, 'Q22': 0, 'Q11': 0, 'Q00': 0, 'Q10': 0}
+Guessing assignment: Q01=1
+{'Q02': -1, 'Q21': -1, 'Q01': 1, 'Q12': 0, 'Q20': 0, 'Q22': 0, 'Q11': 0, 'Q00': 0, 'Q10': 0}
+Forced assignment from UCH: Q00=-1
+{'Q02': -1, 'Q21': -1, 'Q01': 1, 'Q12': 0, 'Q20': 0, 'Q22': 0, 'Q11': 0, 'Q00': -1, 'Q10': 0}
+Forced assignment from UCH: Q11=-1
+{'Q02': -1, 'Q21': -1, 'Q01': 1, 'Q12': 0, 'Q20': 0, 'Q22': 0, 'Q11': -1, 'Q00': -1, 'Q10': 0}
+Forced assignment from UCH: Q10=-1
+{'Q02': -1, 'Q21': -1, 'Q01': 1, 'Q12': 0, 'Q20': 0, 'Q22': 0, 'Q11': -1, 'Q00': -1, 'Q10': -1}
+Forced assignment from UCH: Q12=1
+{'Q02': -1, 'Q21': -1, 'Q01': 1, 'Q12': 1, 'Q20': 0, 'Q22': 0, 'Q11': -1, 'Q00': -1, 'Q10': -1}
+Backtracking
+Guessing assignment: Q01=-1
+{'Q02': -1, 'Q21': -1, 'Q01': -1, 'Q12': 0, 'Q20': 0, 'Q22': 0, 'Q11': 0, 'Q00': 0, 'Q10': 0}
+Forced assignment from UCH: Q00=1
+{'Q02': -1, 'Q21': -1, 'Q01': -1, 'Q12': 0, 'Q20': 0, 'Q22': 0, 'Q11': 0, 'Q00': 1, 'Q10': 0}
+Forced assignment from UCH: Q11=1
+{'Q02': -1, 'Q21': -1, 'Q01': -1, 'Q12': 0, 'Q20': 0, 'Q22': 0, 'Q11': 1, 'Q00': 1, 'Q10': 0}
+Backtracking
+
+Unsatisfiable
+DPLL Calls: 23
+UCH: True

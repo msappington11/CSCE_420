@@ -1,0 +1,442 @@
+filename: mapcolor.cnf
+literals: ['VB']
+UCH: False
+{'VG': 0, 'WAR': 0, 'TR': 0, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 0, 'QG': 0, 'VR': 0, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: VG=1
+{'VG': 1, 'WAR': 0, 'TR': 0, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 0, 'QG': 0, 'VR': 0, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: VG=-1
+{'VG': -1, 'WAR': 0, 'TR': 0, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 0, 'QG': 0, 'VR': 0, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: SAR=1
+{'VG': -1, 'WAR': 0, 'TR': 0, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 0, 'VR': 0, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QG=1
+{'VG': -1, 'WAR': 0, 'TR': 0, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': 0, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: TR=1
+{'VG': -1, 'WAR': 0, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': 0, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: WAR=1
+{'VG': -1, 'WAR': 1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': 0, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: WAR=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': 0, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: VR=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': 1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: VR=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NTB=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 1, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: TB=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: TB=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: SAG=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: SAG=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NTR=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NTR=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSG=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NSG=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QR=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': 1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: QR=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QB=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': 1, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: QB=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: TG=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 1, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: TG=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSB=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': 1, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NSB=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Guessing assignment: NTG=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 1, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NTG=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': -1, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSR=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': -1, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': -1, 'NSR': 1, 'VB': 1}
+Backtracking
+Guessing assignment: NSR=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': -1, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': -1, 'NSR': -1, 'VB': 1}
+Backtracking
+Guessing assignment: NTB=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': -1, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: TB=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: TB=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: SAG=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: SAG=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NTR=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NTR=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSG=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NSG=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QR=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': 1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: QR=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QB=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': 1, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: QB=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: TG=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 1, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: TG=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSB=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': 1, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NSB=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Guessing assignment: NTG=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 1, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NTG=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': -1, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: TR=-1
+{'VG': -1, 'WAR': 0, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': 0, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: WAR=1
+{'VG': -1, 'WAR': 1, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': 0, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: WAR=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': 0, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: VR=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': 1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: VR=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NTB=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 1, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: TB=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: SAG=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 1, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: SAG=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NTR=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NTR=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSG=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': 1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NSG=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QR=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': 1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: QR=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QB=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': -1, 'QB': 1, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: QB=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': -1, 'QB': -1, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: TG=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': -1, 'QB': -1, 'TG': 1, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: TG=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSB=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': 1, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NSB=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Guessing assignment: NTG=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 1, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NTG=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': -1, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSR=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': -1, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': -1, 'NSR': 1, 'VB': 1}
+Backtracking
+Guessing assignment: NSR=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': -1, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': -1, 'NSR': -1, 'VB': 1}
+Backtracking
+Guessing assignment: TB=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: SAG=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: SAG=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NTR=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NTR=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSG=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NSG=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QR=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': 1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: QR=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QB=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': 1, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: QB=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: TG=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 1, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSB=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 1, 'NSB': 1, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NSB=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Guessing assignment: NTG=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 1, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NTG=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': -1, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSR=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': -1, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 1, 'NSB': -1, 'NSR': 1, 'VB': 1}
+Backtracking
+Guessing assignment: NSR=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': -1, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 1, 'NSB': -1, 'NSR': -1, 'VB': 1}
+Backtracking
+Guessing assignment: TG=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NTB=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': -1, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: TB=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: SAG=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 1, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: SAG=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NTR=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NTR=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSG=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': 1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NSG=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QR=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': 1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: QR=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QB=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': -1, 'QB': 1, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: QB=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': -1, 'QB': -1, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: TG=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': -1, 'QB': -1, 'TG': 1, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: TG=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSB=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': 1, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NSB=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Guessing assignment: NTG=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 1, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NTG=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': -1, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: TB=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: SAG=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': 1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: SAG=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NTR=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': 1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NTR=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSG=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NSG=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QR=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': 1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: QR=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QB=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': 1, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: QB=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: TG=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 1, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSB=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 1, 'NSB': 1, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NSB=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Guessing assignment: NTG=1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 1, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NTG=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': -1, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: TG=-1
+{'VG': -1, 'WAR': -1, 'TR': -1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': 1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': -1, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: QG=-1
+{'VG': -1, 'WAR': 0, 'TR': 0, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': 0, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: TR=1
+{'VG': -1, 'WAR': 0, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': 0, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: WAR=1
+{'VG': -1, 'WAR': 1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': 0, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: WAR=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': 0, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: VR=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': 1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: VR=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 0, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NTB=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 1, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: TB=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 1, 'TB': 1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: TB=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: SAG=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': 1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: SAG=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NTR=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NTR=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSG=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QR=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': 1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: QR=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QB=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 1, 'QB': 1, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: QB=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': 1, 'QB': -1, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NSG=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QR=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': 1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: QR=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QB=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': 1, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: QB=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': 1, 'TB': -1, 'NSG': -1, 'QB': -1, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NTB=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': -1, 'TB': 0, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: TB=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': -1, 'TB': 1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: TB=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': 0, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: SAG=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': 1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: SAG=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 0, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NTR=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': 1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NTR=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 0, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSG=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': 0, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QR=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': 1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: QR=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 0, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: QB=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 1, 'TG': 0, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: TG=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 1, 'TG': 1, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: TG=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 1, 'TG': -1, 'NSB': 0, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSB=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 1, 'TG': -1, 'NSB': 1, 'NSR': 0, 'VB': 1}
+Backtracking
+Guessing assignment: NSB=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 0, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 1, 'TG': -1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Guessing assignment: NTG=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 1, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 1, 'TG': -1, 'NSB': -1, 'NSR': 0, 'VB': 1}
+Guessing assignment: NSR=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 1, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 1, 'TG': -1, 'NSB': -1, 'NSR': 1, 'VB': 1}
+Backtracking
+Guessing assignment: NSR=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 1, 'SAG': -1, 'SAB': 0, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 1, 'TG': -1, 'NSB': -1, 'NSR': -1, 'VB': 1}
+Guessing assignment: SAB=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 1, 'SAG': -1, 'SAB': 1, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 1, 'TG': -1, 'NSB': -1, 'NSR': -1, 'VB': 1}
+Backtracking
+Guessing assignment: SAB=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 0, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 1, 'SAG': -1, 'SAB': -1, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 1, 'TG': -1, 'NSB': -1, 'NSR': -1, 'VB': 1}
+Guessing assignment: WAB=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 1, 'WAG': 0, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 1, 'SAG': -1, 'SAB': -1, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 1, 'TG': -1, 'NSB': -1, 'NSR': -1, 'VB': 1}
+Guessing assignment: WAG=1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 1, 'WAG': 1, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 1, 'SAG': -1, 'SAB': -1, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 1, 'TG': -1, 'NSB': -1, 'NSR': -1, 'VB': 1}
+Backtracking
+Guessing assignment: WAG=-1
+{'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 1, 'WAG': -1, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 1, 'SAG': -1, 'SAB': -1, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 1, 'TG': -1, 'NSB': -1, 'NSR': -1, 'VB': 1}
+
+Solved with model:
+ {'VG': -1, 'WAR': -1, 'TR': 1, 'NTR': -1, 'QR': -1, 'WAB': 1, 'WAG': -1, 'SAR': 1, 'QG': -1, 'VR': -1, 'NTG': 1, 'SAG': -1, 'SAB': -1, 'NTB': -1, 'TB': -1, 'NSG': 1, 'QB': 1, 'TG': -1, 'NSB': -1, 'NSR': -1, 'VB': 1}
+True values: TR WAB SAR NTG NSG QB VB 
+DPLL Calls: 175
+UCH: False

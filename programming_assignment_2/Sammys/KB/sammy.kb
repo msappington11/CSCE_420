@@ -1,0 +1,88 @@
+# labels are incorrect
+(implies L1Y (not C1Y))
+(implies L1W (not C1W))
+(implies L1B (not C1B))
+(implies L2Y (not C2Y))
+(implies L2W (not C2W))
+(implies L2B (not C2B))
+(implies L3Y (not C3Y))
+(implies L3W (not C3W))
+(implies L3B (not C3B))
+
+
+# all contents different
+(implies C1W (and (not C2W) (not C3W)))
+(implies C1Y (and (not C2Y) (not C3Y)))
+(implies C1B (and (not C2B) (not C3B)))
+(implies C2W (and (not C1W) (not C3W)))
+(implies C2Y (and (not C1Y) (not C3Y)))
+(implies C2B (and (not C1B) (not C3B)))
+(implies C3W (and (not C1W) (not C2W)))
+(implies C3Y (and (not C1Y) (not C2Y)))
+(implies C3B (and (not C1B) (not C2B)))
+
+
+# observed color implies either box is that color or contains both
+(implies O1Y (or C1Y C1B))
+(implies O1W (or C1W C1B))
+(implies O2Y (or C2Y C2B))
+(implies O2W (or C2W C2B))
+(implies O3Y (or C3Y C3B))
+(implies O3W (or C3W C3B))
+
+
+# cant have multiple labels
+(implies C1Y (not C1W))
+(implies C1Y (not C1B))
+(implies C1W (not C1Y))
+(implies C1W (not C1B))
+(implies C1B (not C1Y))
+(implies C1B (not C1W))
+
+(implies C2Y (not C2W))
+(implies C2Y (not C2B))
+(implies C2W (not C2Y))
+(implies C2W (not C2B))
+(implies C2B (not C2Y))
+(implies C2B (not C2W))
+
+(implies C3Y (not C3W))
+(implies C3Y (not C3B))
+(implies C3W (not C3Y))
+(implies C3W (not C3B))
+(implies C3B (not C3Y))
+(implies C3B (not C3W))
+
+
+# cant have multiple initial labels
+(implies L1Y (not L1W))
+(implies L1Y (not L1B))
+(implies L1W (not L1Y))
+(implies L1W (not L1B))
+(implies L1B (not L1Y))
+(implies L1B (not L1W))
+
+(implies L2Y (not L2W))
+(implies L2Y (not L2B))
+(implies L2W (not L2Y))
+(implies L2W (not L2B))
+(implies L2B (not L2Y))
+(implies L2B (not L2W))
+
+(implies L3Y (not L3W))
+(implies L3Y (not L3B))
+(implies L3W (not L3Y))
+(implies L3W (not L3B))
+(implies L3B (not L3Y))
+(implies L3B (not L3W))
+
+
+# cant have multple observations
+(implies O1Y (not O1W))
+(implies O1Y (not O1W))
+
+(implies O2Y (not O2W))
+(implies O2Y (not O2W))
+
+(implies O3Y (not O3W))
+(implies O3Y (not O3W))

@@ -1,0 +1,388 @@
+# (or Q00 Q01 Q02 Q03 )
+
+Q00 Q01 Q02 Q03
+
+# (or Q10 Q11 Q12 Q13 )
+
+Q10 Q11 Q12 Q13
+
+# (or Q20 Q21 Q22 Q23 )
+
+Q20 Q21 Q22 Q23
+
+# (or Q30 Q31 Q32 Q33 )
+
+Q30 Q31 Q32 Q33
+
+# (or Q00 Q10 Q20 Q30 )
+
+Q00 Q10 Q20 Q30
+
+# (or Q01 Q11 Q21 Q31 )
+
+Q01 Q11 Q21 Q31
+
+# (or Q02 Q12 Q22 Q32 )
+
+Q02 Q12 Q22 Q32
+
+# (or Q03 Q13 Q23 Q33 )
+
+Q03 Q13 Q23 Q33
+
+# (implies Q00 (and (not Q01)(not Q02)(not Q03)))
+
+-Q01 -Q00
+-Q02 -Q00
+-Q03 -Q00
+
+# (implies Q01 (and (not Q00)(not Q02)(not Q03)))
+
+-Q00 -Q01
+-Q02 -Q01
+-Q03 -Q01
+
+# (implies Q02 (and (not Q00)(not Q01)(not Q03)))
+
+-Q00 -Q02
+-Q01 -Q02
+-Q03 -Q02
+
+# (implies Q03 (and (not Q00)(not Q01)(not Q02)))
+
+-Q00 -Q03
+-Q01 -Q03
+-Q02 -Q03
+
+# (implies Q10 (and (not Q11)(not Q12)(not Q13)))
+
+-Q11 -Q10
+-Q12 -Q10
+-Q13 -Q10
+
+# (implies Q11 (and (not Q10)(not Q12)(not Q13)))
+
+-Q10 -Q11
+-Q12 -Q11
+-Q13 -Q11
+
+# (implies Q12 (and (not Q10)(not Q11)(not Q13)))
+
+-Q10 -Q12
+-Q11 -Q12
+-Q13 -Q12
+
+# (implies Q13 (and (not Q10)(not Q11)(not Q12)))
+
+-Q10 -Q13
+-Q11 -Q13
+-Q12 -Q13
+
+# (implies Q20 (and (not Q21)(not Q22)(not Q23)))
+
+-Q21 -Q20
+-Q22 -Q20
+-Q23 -Q20
+
+# (implies Q21 (and (not Q20)(not Q22)(not Q23)))
+
+-Q20 -Q21
+-Q22 -Q21
+-Q23 -Q21
+
+# (implies Q22 (and (not Q20)(not Q21)(not Q23)))
+
+-Q20 -Q22
+-Q21 -Q22
+-Q23 -Q22
+
+# (implies Q23 (and (not Q20)(not Q21)(not Q22)))
+
+-Q20 -Q23
+-Q21 -Q23
+-Q22 -Q23
+
+# (implies Q30 (and (not Q31)(not Q32)(not Q33)))
+
+-Q31 -Q30
+-Q32 -Q30
+-Q33 -Q30
+
+# (implies Q31 (and (not Q30)(not Q32)(not Q33)))
+
+-Q30 -Q31
+-Q32 -Q31
+-Q33 -Q31
+
+# (implies Q32 (and (not Q30)(not Q31)(not Q33)))
+
+-Q30 -Q32
+-Q31 -Q32
+-Q33 -Q32
+
+# (implies Q33 (and (not Q30)(not Q31)(not Q32)))
+
+-Q30 -Q33
+-Q31 -Q33
+-Q32 -Q33
+
+# (implies Q00 (and (not Q10)(not Q20)(not Q30)))
+
+-Q10 -Q00
+-Q20 -Q00
+-Q30 -Q00
+
+# (implies Q01 (and (not Q11)(not Q21)(not Q31)))
+
+-Q11 -Q01
+-Q21 -Q01
+-Q31 -Q01
+
+# (implies Q02 (and (not Q12)(not Q22)(not Q32)))
+
+-Q12 -Q02
+-Q22 -Q02
+-Q32 -Q02
+
+# (implies Q03 (and (not Q13)(not Q23)(not Q33)))
+
+-Q13 -Q03
+-Q23 -Q03
+-Q33 -Q03
+
+# (implies Q10 (and (not Q00)(not Q20)(not Q30)))
+
+-Q00 -Q10
+-Q20 -Q10
+-Q30 -Q10
+
+# (implies Q11 (and (not Q01)(not Q21)(not Q31)))
+
+-Q01 -Q11
+-Q21 -Q11
+-Q31 -Q11
+
+# (implies Q12 (and (not Q02)(not Q22)(not Q32)))
+
+-Q02 -Q12
+-Q22 -Q12
+-Q32 -Q12
+
+# (implies Q13 (and (not Q03)(not Q23)(not Q33)))
+
+-Q03 -Q13
+-Q23 -Q13
+-Q33 -Q13
+
+# (implies Q20 (and (not Q00)(not Q10)(not Q30)))
+
+-Q00 -Q20
+-Q10 -Q20
+-Q30 -Q20
+
+# (implies Q21 (and (not Q01)(not Q11)(not Q31)))
+
+-Q01 -Q21
+-Q11 -Q21
+-Q31 -Q21
+
+# (implies Q22 (and (not Q02)(not Q12)(not Q32)))
+
+-Q02 -Q22
+-Q12 -Q22
+-Q32 -Q22
+
+# (implies Q23 (and (not Q03)(not Q13)(not Q33)))
+
+-Q03 -Q23
+-Q13 -Q23
+-Q33 -Q23
+
+# (implies Q30 (and (not Q00)(not Q10)(not Q20)))
+
+-Q00 -Q30
+-Q10 -Q30
+-Q20 -Q30
+
+# (implies Q31 (and (not Q01)(not Q11)(not Q21)))
+
+-Q01 -Q31
+-Q11 -Q31
+-Q21 -Q31
+
+# (implies Q32 (and (not Q02)(not Q12)(not Q22)))
+
+-Q02 -Q32
+-Q12 -Q32
+-Q22 -Q32
+
+# (implies Q33 (and (not Q03)(not Q13)(not Q23)))
+
+-Q03 -Q33
+-Q13 -Q33
+-Q23 -Q33
+
+# (implies  Q00 (and (not Q11) (not Q22) (not Q33) ))
+
+-Q11 -Q00
+-Q22 -Q00
+-Q33 -Q00
+
+# (implies  Q01 (not Q10) )
+
+-Q01 -Q10
+
+# (implies  Q01 (and (not Q12) (not Q23) ))
+
+-Q12 -Q01
+-Q23 -Q01
+
+# (implies  Q02 (and (not Q11) (not Q20) ))
+
+-Q11 -Q02
+-Q20 -Q02
+
+# (implies  Q02 (not Q13) )
+
+-Q02 -Q13
+
+# (implies  Q03 (and (not Q12) (not Q21) (not Q30) ))
+
+-Q12 -Q03
+-Q21 -Q03
+-Q30 -Q03
+
+# (implies  Q10 (not Q01) )
+
+-Q10 -Q01
+
+# (implies  Q10 (and (not Q21) (not Q32) ))
+
+-Q21 -Q10
+-Q32 -Q10
+
+# (implies  Q11 (not Q00) )
+
+-Q11 -Q00
+
+# (implies  Q11 (not Q02) )
+
+-Q11 -Q02
+
+# (implies  Q11 (not Q20) )
+
+-Q11 -Q20
+
+# (implies  Q11 (and (not Q22) (not Q33) ))
+
+-Q22 -Q11
+-Q33 -Q11
+
+# (implies  Q12 (not Q01) )
+
+-Q12 -Q01
+
+# (implies  Q12 (not Q03) )
+
+-Q12 -Q03
+
+# (implies  Q12 (and (not Q21) (not Q30) ))
+
+-Q21 -Q12
+-Q30 -Q12
+
+# (implies  Q12 (not Q23) )
+
+-Q12 -Q23
+
+# (implies  Q13 (not Q02) )
+
+-Q13 -Q02
+
+# (implies  Q13 (and (not Q22) (not Q31) ))
+
+-Q22 -Q13
+-Q31 -Q13
+
+# (implies  Q20 (and (not Q11) (not Q02) ))
+
+-Q11 -Q20
+-Q02 -Q20
+
+# (implies  Q20 (not Q31) )
+
+-Q20 -Q31
+
+# (implies  Q21 (not Q10) )
+
+-Q21 -Q10
+
+# (implies  Q21 (and (not Q12) (not Q03) ))
+
+-Q12 -Q21
+-Q03 -Q21
+
+# (implies  Q21 (not Q30) )
+
+-Q21 -Q30
+
+# (implies  Q21 (not Q32) )
+
+-Q21 -Q32
+
+# (implies  Q22 (and (not Q11) (not Q00) ))
+
+-Q11 -Q22
+-Q00 -Q22
+
+# (implies  Q22 (not Q13) )
+
+-Q22 -Q13
+
+# (implies  Q22 (not Q31) )
+
+-Q22 -Q31
+
+# (implies  Q22 (not Q33) )
+
+-Q22 -Q33
+
+# (implies  Q23 (and (not Q12) (not Q01) ))
+
+-Q12 -Q23
+-Q01 -Q23
+
+# (implies  Q23 (not Q32) )
+
+-Q23 -Q32
+
+# (implies  Q30 (and (not Q21) (not Q12) (not Q03) ))
+
+-Q21 -Q30
+-Q12 -Q30
+-Q03 -Q30
+
+# (implies  Q31 (not Q20) )
+
+-Q31 -Q20
+
+# (implies  Q31 (and (not Q22) (not Q13) ))
+
+-Q22 -Q31
+-Q13 -Q31
+
+# (implies  Q32 (and (not Q21) (not Q10) ))
+
+-Q21 -Q32
+-Q10 -Q32
+
+# (implies  Q32 (not Q23) )
+
+-Q32 -Q23
+
+# (implies  Q33 (and (not Q22) (not Q11) (not Q00) ))
+
+-Q22 -Q33
+-Q11 -Q33
+-Q00 -Q33
+
