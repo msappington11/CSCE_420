@@ -77,14 +77,28 @@ def DPLL_SAT(filename, literals, uch): # filename contains the sentence
     model = {}
     for symbol in symbols:
         model[symbol] = 0
+
     for literal in literals:
         literal = remove_neg(literal)
-        if literal['is_neg']:
-            model[literal['value']] = -1 # set literals to false if fact is negative
-        else:
-            model[literal['value']] = 1 # set literal to true if fact is positive
 
-        symbols.remove(literal['value']) # remove from symbols list so they dont get overriden
+        # if an inputted fact not included in clauses (assignment really doesnt matter since it isnt used)
+        if literal['value'] not in model:
+            model[literal['value']] = -1 if literal['is_neg'] else 1
+
+        # if the model has positive value and literal is negative, unsatisfiable since initial facts conflict (P ^ -P)
+        if model[literal['value']] == 1 and literal['is_neg'] or model[literal['value']] == -1 and not literal['is_neg']: 
+            return False
+
+        # set literals to false if fact is negative
+        if literal['is_neg']:
+            model[literal['value']] = -1
+        # set literal to true if fact is positive
+        else:
+            model[literal['value']] = 1 
+
+        # remove from symbols list so they dont get overriden by guessing
+        if literal['value'] in symbols:
+            symbols.remove(literal['value'])
 
     return DPLL(clauses, symbols, model, uch)
 
