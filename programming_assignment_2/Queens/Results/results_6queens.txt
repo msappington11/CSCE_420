@@ -475,3 +475,4 @@ Solved with model:
 True values: Q12 Q35 Q20 Q43 Q04 Q51 
 DPLL Calls: 189
 UCH: False
+
