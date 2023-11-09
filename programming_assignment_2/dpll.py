@@ -108,8 +108,10 @@ def DPLL(clauses, symbols, model, uch):
     if P is not None:
         symbols_copy = set(symbols)
         symbols_copy.remove(P)
+        model_copy = dict(model)
+        model_copy[P] = value
         print(f'Forced assignment from UCH: {P}={value}')
-        return DPLL(clauses, symbols_copy, dict(model | {P: value}), uch)
+        return DPLL(clauses, symbols_copy, model_copy, uch)
     
     # take random P from set
     P = next(iter(symbols))
@@ -117,10 +119,13 @@ def DPLL(clauses, symbols, model, uch):
     symbols_copy.remove(P)
 
     print(f'Guessing assignment: {P}=1')
-    left = DPLL(clauses, symbols_copy, dict(model | {P: 1}), uch)
+    model_copy = dict(model)
+    model_copy[P] = 1
+    left = DPLL(clauses, symbols_copy, model_copy, uch)
     if not left:
         print(f'Guessing assignment: {P}=-1')
-        right = DPLL(clauses, symbols_copy, dict(model | {P: -1}), uch)
+        model_copy[P] = -1
+        right = DPLL(clauses, symbols_copy, model_copy, uch)
     return left or right    
 
             
