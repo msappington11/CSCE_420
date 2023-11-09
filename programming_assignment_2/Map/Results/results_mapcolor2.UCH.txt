@@ -1,0 +1,50 @@
+filename: mapcolor.cnf
+literals: ['VB']
+UCH: True
+{'QG': 0, 'QB': 0, 'NSR': 0, 'WAG': 0, 'SAB': 0, 'NSG': 0, 'NTB': 0, 'SAG': 0, 'VR': 0, 'TB': 0, 'VG': 0, 'WAR': 0, 'TG': 0, 'TR': 0, 'NSB': 0, 'SAR': 0, 'NTR': 0, 'NTG': 0, 'WAB': 0, 'QR': 0, 'VB': 1}
+Forced assignment from UCH: SAB=-1
+{'QG': 0, 'QB': 0, 'NSR': 0, 'WAG': 0, 'SAB': -1, 'NSG': 0, 'NTB': 0, 'SAG': 0, 'VR': 0, 'TB': 0, 'VG': 0, 'WAR': 0, 'TG': 0, 'TR': 0, 'NSB': 0, 'SAR': 0, 'NTR': 0, 'NTG': 0, 'WAB': 0, 'QR': 0, 'VB': 1}
+Forced assignment from UCH: NSB=-1
+{'QG': 0, 'QB': 0, 'NSR': 0, 'WAG': 0, 'SAB': -1, 'NSG': 0, 'NTB': 0, 'SAG': 0, 'VR': 0, 'TB': 0, 'VG': 0, 'WAR': 0, 'TG': 0, 'TR': 0, 'NSB': -1, 'SAR': 0, 'NTR': 0, 'NTG': 0, 'WAB': 0, 'QR': 0, 'VB': 1}
+Forced assignment from UCH: VG=-1
+{'QG': 0, 'QB': 0, 'NSR': 0, 'WAG': 0, 'SAB': -1, 'NSG': 0, 'NTB': 0, 'SAG': 0, 'VR': 0, 'TB': 0, 'VG': -1, 'WAR': 0, 'TG': 0, 'TR': 0, 'NSB': -1, 'SAR': 0, 'NTR': 0, 'NTG': 0, 'WAB': 0, 'QR': 0, 'VB': 1}
+Forced assignment from UCH: VR=-1
+{'QG': 0, 'QB': 0, 'NSR': 0, 'WAG': 0, 'SAB': -1, 'NSG': 0, 'NTB': 0, 'SAG': 0, 'VR': -1, 'TB': 0, 'VG': -1, 'WAR': 0, 'TG': 0, 'TR': 0, 'NSB': -1, 'SAR': 0, 'NTR': 0, 'NTG': 0, 'WAB': 0, 'QR': 0, 'VB': 1}
+Guessing assignment: SAG=1
+{'QG': 0, 'QB': 0, 'NSR': 0, 'WAG': 0, 'SAB': -1, 'NSG': 0, 'NTB': 0, 'SAG': 1, 'VR': -1, 'TB': 0, 'VG': -1, 'WAR': 0, 'TG': 0, 'TR': 0, 'NSB': -1, 'SAR': 0, 'NTR': 0, 'NTG': 0, 'WAB': 0, 'QR': 0, 'VB': 1}
+Forced assignment from UCH: WAG=-1
+{'QG': 0, 'QB': 0, 'NSR': 0, 'WAG': -1, 'SAB': -1, 'NSG': 0, 'NTB': 0, 'SAG': 1, 'VR': -1, 'TB': 0, 'VG': -1, 'WAR': 0, 'TG': 0, 'TR': 0, 'NSB': -1, 'SAR': 0, 'NTR': 0, 'NTG': 0, 'WAB': 0, 'QR': 0, 'VB': 1}
+Forced assignment from UCH: NTG=-1
+{'QG': 0, 'QB': 0, 'NSR': 0, 'WAG': -1, 'SAB': -1, 'NSG': 0, 'NTB': 0, 'SAG': 1, 'VR': -1, 'TB': 0, 'VG': -1, 'WAR': 0, 'TG': 0, 'TR': 0, 'NSB': -1, 'SAR': 0, 'NTR': 0, 'NTG': -1, 'WAB': 0, 'QR': 0, 'VB': 1}
+Forced assignment from UCH: QG=-1
+{'QG': -1, 'QB': 0, 'NSR': 0, 'WAG': -1, 'SAB': -1, 'NSG': 0, 'NTB': 0, 'SAG': 1, 'VR': -1, 'TB': 0, 'VG': -1, 'WAR': 0, 'TG': 0, 'TR': 0, 'NSB': -1, 'SAR': 0, 'NTR': 0, 'NTG': -1, 'WAB': 0, 'QR': 0, 'VB': 1}
+Forced assignment from UCH: NSG=-1
+{'QG': -1, 'QB': 0, 'NSR': 0, 'WAG': -1, 'SAB': -1, 'NSG': -1, 'NTB': 0, 'SAG': 1, 'VR': -1, 'TB': 0, 'VG': -1, 'WAR': 0, 'TG': 0, 'TR': 0, 'NSB': -1, 'SAR': 0, 'NTR': 0, 'NTG': -1, 'WAB': 0, 'QR': 0, 'VB': 1}
+Forced assignment from UCH: NSR=1
+{'QG': -1, 'QB': 0, 'NSR': 1, 'WAG': -1, 'SAB': -1, 'NSG': -1, 'NTB': 0, 'SAG': 1, 'VR': -1, 'TB': 0, 'VG': -1, 'WAR': 0, 'TG': 0, 'TR': 0, 'NSB': -1, 'SAR': 0, 'NTR': 0, 'NTG': -1, 'WAB': 0, 'QR': 0, 'VB': 1}
+Forced assignment from UCH: SAR=-1
+{'QG': -1, 'QB': 0, 'NSR': 1, 'WAG': -1, 'SAB': -1, 'NSG': -1, 'NTB': 0, 'SAG': 1, 'VR': -1, 'TB': 0, 'VG': -1, 'WAR': 0, 'TG': 0, 'TR': 0, 'NSB': -1, 'SAR': -1, 'NTR': 0, 'NTG': -1, 'WAB': 0, 'QR': 0, 'VB': 1}
+Forced assignment from UCH: QR=-1
+{'QG': -1, 'QB': 0, 'NSR': 1, 'WAG': -1, 'SAB': -1, 'NSG': -1, 'NTB': 0, 'SAG': 1, 'VR': -1, 'TB': 0, 'VG': -1, 'WAR': 0, 'TG': 0, 'TR': 0, 'NSB': -1, 'SAR': -1, 'NTR': 0, 'NTG': -1, 'WAB': 0, 'QR': -1, 'VB': 1}
+Forced assignment from UCH: QB=1
+{'QG': -1, 'QB': 1, 'NSR': 1, 'WAG': -1, 'SAB': -1, 'NSG': -1, 'NTB': 0, 'SAG': 1, 'VR': -1, 'TB': 0, 'VG': -1, 'WAR': 0, 'TG': 0, 'TR': 0, 'NSB': -1, 'SAR': -1, 'NTR': 0, 'NTG': -1, 'WAB': 0, 'QR': -1, 'VB': 1}
+Forced assignment from UCH: NTB=-1
+{'QG': -1, 'QB': 1, 'NSR': 1, 'WAG': -1, 'SAB': -1, 'NSG': -1, 'NTB': -1, 'SAG': 1, 'VR': -1, 'TB': 0, 'VG': -1, 'WAR': 0, 'TG': 0, 'TR': 0, 'NSB': -1, 'SAR': -1, 'NTR': 0, 'NTG': -1, 'WAB': 0, 'QR': -1, 'VB': 1}
+Forced assignment from UCH: NTR=1
+{'QG': -1, 'QB': 1, 'NSR': 1, 'WAG': -1, 'SAB': -1, 'NSG': -1, 'NTB': -1, 'SAG': 1, 'VR': -1, 'TB': 0, 'VG': -1, 'WAR': 0, 'TG': 0, 'TR': 0, 'NSB': -1, 'SAR': -1, 'NTR': 1, 'NTG': -1, 'WAB': 0, 'QR': -1, 'VB': 1}
+Forced assignment from UCH: WAR=-1
+{'QG': -1, 'QB': 1, 'NSR': 1, 'WAG': -1, 'SAB': -1, 'NSG': -1, 'NTB': -1, 'SAG': 1, 'VR': -1, 'TB': 0, 'VG': -1, 'WAR': -1, 'TG': 0, 'TR': 0, 'NSB': -1, 'SAR': -1, 'NTR': 1, 'NTG': -1, 'WAB': 0, 'QR': -1, 'VB': 1}
+Forced assignment from UCH: WAB=1
+{'QG': -1, 'QB': 1, 'NSR': 1, 'WAG': -1, 'SAB': -1, 'NSG': -1, 'NTB': -1, 'SAG': 1, 'VR': -1, 'TB': 0, 'VG': -1, 'WAR': -1, 'TG': 0, 'TR': 0, 'NSB': -1, 'SAR': -1, 'NTR': 1, 'NTG': -1, 'WAB': 1, 'QR': -1, 'VB': 1}
+Guessing assignment: TG=1
+{'QG': -1, 'QB': 1, 'NSR': 1, 'WAG': -1, 'SAB': -1, 'NSG': -1, 'NTB': -1, 'SAG': 1, 'VR': -1, 'TB': 0, 'VG': -1, 'WAR': -1, 'TG': 1, 'TR': 0, 'NSB': -1, 'SAR': -1, 'NTR': 1, 'NTG': -1, 'WAB': 1, 'QR': -1, 'VB': 1}
+Forced assignment from UCH: TR=-1
+{'QG': -1, 'QB': 1, 'NSR': 1, 'WAG': -1, 'SAB': -1, 'NSG': -1, 'NTB': -1, 'SAG': 1, 'VR': -1, 'TB': 0, 'VG': -1, 'WAR': -1, 'TG': 1, 'TR': -1, 'NSB': -1, 'SAR': -1, 'NTR': 1, 'NTG': -1, 'WAB': 1, 'QR': -1, 'VB': 1}
+Forced assignment from UCH: TB=-1
+{'QG': -1, 'QB': 1, 'NSR': 1, 'WAG': -1, 'SAB': -1, 'NSG': -1, 'NTB': -1, 'SAG': 1, 'VR': -1, 'TB': -1, 'VG': -1, 'WAR': -1, 'TG': 1, 'TR': -1, 'NSB': -1, 'SAR': -1, 'NTR': 1, 'NTG': -1, 'WAB': 1, 'QR': -1, 'VB': 1}
+
+Solved with model:
+ {'QG': -1, 'QB': 1, 'NSR': 1, 'WAG': -1, 'SAB': -1, 'NSG': -1, 'NTB': -1, 'SAG': 1, 'VR': -1, 'TB': -1, 'VG': -1, 'WAR': -1, 'TG': 1, 'TR': -1, 'NSB': -1, 'SAR': -1, 'NTR': 1, 'NTG': -1, 'WAB': 1, 'QR': -1, 'VB': 1}
+True values: QB NSR SAG TG NTR WAB VB 
+DPLL Calls: 21
+UCH: True

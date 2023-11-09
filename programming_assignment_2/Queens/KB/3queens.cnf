@@ -1,0 +1,182 @@
+# (or Q00 Q01 Q02 )
+
+Q00 Q01 Q02
+
+# (or Q10 Q11 Q12 )
+
+Q10 Q11 Q12
+
+# (or Q20 Q21 Q22 )
+
+Q20 Q21 Q22
+
+# (or Q00 Q10 Q20 )
+
+Q00 Q10 Q20
+
+# (or Q01 Q11 Q21 )
+
+Q01 Q11 Q21
+
+# (or Q02 Q12 Q22 )
+
+Q02 Q12 Q22
+
+# (implies Q00 (and (not Q01)(not Q02)))
+
+-Q01 -Q00
+-Q02 -Q00
+
+# (implies Q01 (and (not Q00)(not Q02)))
+
+-Q00 -Q01
+-Q02 -Q01
+
+# (implies Q02 (and (not Q00)(not Q01)))
+
+-Q00 -Q02
+-Q01 -Q02
+
+# (implies Q10 (and (not Q11)(not Q12)))
+
+-Q11 -Q10
+-Q12 -Q10
+
+# (implies Q11 (and (not Q10)(not Q12)))
+
+-Q10 -Q11
+-Q12 -Q11
+
+# (implies Q12 (and (not Q10)(not Q11)))
+
+-Q10 -Q12
+-Q11 -Q12
+
+# (implies Q20 (and (not Q21)(not Q22)))
+
+-Q21 -Q20
+-Q22 -Q20
+
+# (implies Q21 (and (not Q20)(not Q22)))
+
+-Q20 -Q21
+-Q22 -Q21
+
+# (implies Q22 (and (not Q20)(not Q21)))
+
+-Q20 -Q22
+-Q21 -Q22
+
+# (implies Q00 (and (not Q10)(not Q20)))
+
+-Q10 -Q00
+-Q20 -Q00
+
+# (implies Q01 (and (not Q11)(not Q21)))
+
+-Q11 -Q01
+-Q21 -Q01
+
+# (implies Q02 (and (not Q12)(not Q22)))
+
+-Q12 -Q02
+-Q22 -Q02
+
+# (implies Q10 (and (not Q00)(not Q20)))
+
+-Q00 -Q10
+-Q20 -Q10
+
+# (implies Q11 (and (not Q01)(not Q21)))
+
+-Q01 -Q11
+-Q21 -Q11
+
+# (implies Q12 (and (not Q02)(not Q22)))
+
+-Q02 -Q12
+-Q22 -Q12
+
+# (implies Q20 (and (not Q00)(not Q10)))
+
+-Q00 -Q20
+-Q10 -Q20
+
+# (implies Q21 (and (not Q01)(not Q11)))
+
+-Q01 -Q21
+-Q11 -Q21
+
+# (implies Q22 (and (not Q02)(not Q12)))
+
+-Q02 -Q22
+-Q12 -Q22
+
+# (implies  Q00 (and (not Q11) (not Q22) ))
+
+-Q11 -Q00
+-Q22 -Q00
+
+# (implies  Q01 (not Q10) )
+
+-Q01 -Q10
+
+# (implies  Q01 (not Q12) )
+
+-Q01 -Q12
+
+# (implies  Q02 (and (not Q11) (not Q20) ))
+
+-Q11 -Q02
+-Q20 -Q02
+
+# (implies  Q10 (not Q01) )
+
+-Q10 -Q01
+
+# (implies  Q10 (not Q21) )
+
+-Q10 -Q21
+
+# (implies  Q11 (not Q00) )
+
+-Q11 -Q00
+
+# (implies  Q11 (not Q02) )
+
+-Q11 -Q02
+
+# (implies  Q11 (not Q20) )
+
+-Q11 -Q20
+
+# (implies  Q11 (not Q22) )
+
+-Q11 -Q22
+
+# (implies  Q12 (not Q01) )
+
+-Q12 -Q01
+
+# (implies  Q12 (not Q21) )
+
+-Q12 -Q21
+
+# (implies  Q20 (and (not Q11) (not Q02) ))
+
+-Q11 -Q20
+-Q02 -Q20
+
+# (implies  Q21 (not Q10) )
+
+-Q21 -Q10
+
+# (implies  Q21 (not Q12) )
+
+-Q21 -Q12
+
+# (implies  Q22 (and (not Q11) (not Q00) ))
+
+-Q11 -Q22
+-Q00 -Q22
+

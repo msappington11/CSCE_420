@@ -1,0 +1,131 @@
+filename: sammy.cnf
+literals: ['O1Y', 'O2W', 'O3Y', 'L1W', 'L2Y', 'L3B']
+UCH: False
+{'O2Y': 0, 'L2B': 0, 'L1W': 1, 'C2B': 0, 'C1B': 0, 'L2Y': 1, 'C3W': 0, 'O3W': 0, 'C2Y': 0, 'L2W': 0, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': 0, 'L1Y': 0, 'O1W': 0, 'C3Y': 0, 'L3Y': 0, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 0, 'C1Y': 0}
+Guessing assignment: O2Y=1
+{'O2Y': 1, 'L2B': 0, 'L1W': 1, 'C2B': 0, 'C1B': 0, 'L2Y': 1, 'C3W': 0, 'O3W': 0, 'C2Y': 0, 'L2W': 0, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': 0, 'L1Y': 0, 'O1W': 0, 'C3Y': 0, 'L3Y': 0, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 0, 'C1Y': 0}
+Backtracking
+Guessing assignment: O2Y=-1
+{'O2Y': -1, 'L2B': 0, 'L1W': 1, 'C2B': 0, 'C1B': 0, 'L2Y': 1, 'C3W': 0, 'O3W': 0, 'C2Y': 0, 'L2W': 0, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': 0, 'L1Y': 0, 'O1W': 0, 'C3Y': 0, 'L3Y': 0, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 0, 'C1Y': 0}
+Guessing assignment: L3W=1
+{'O2Y': -1, 'L2B': 0, 'L1W': 1, 'C2B': 0, 'C1B': 0, 'L2Y': 1, 'C3W': 0, 'O3W': 0, 'C2Y': 0, 'L2W': 0, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': 1, 'L1Y': 0, 'O1W': 0, 'C3Y': 0, 'L3Y': 0, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 0, 'C1Y': 0}
+Backtracking
+Guessing assignment: L3W=-1
+{'O2Y': -1, 'L2B': 0, 'L1W': 1, 'C2B': 0, 'C1B': 0, 'L2Y': 1, 'C3W': 0, 'O3W': 0, 'C2Y': 0, 'L2W': 0, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': 0, 'O1W': 0, 'C3Y': 0, 'L3Y': 0, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 0, 'C1Y': 0}
+Guessing assignment: L2B=1
+{'O2Y': -1, 'L2B': 1, 'L1W': 1, 'C2B': 0, 'C1B': 0, 'L2Y': 1, 'C3W': 0, 'O3W': 0, 'C2Y': 0, 'L2W': 0, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': 0, 'O1W': 0, 'C3Y': 0, 'L3Y': 0, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 0, 'C1Y': 0}
+Backtracking
+Guessing assignment: L2B=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 0, 'L2Y': 1, 'C3W': 0, 'O3W': 0, 'C2Y': 0, 'L2W': 0, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': 0, 'O1W': 0, 'C3Y': 0, 'L3Y': 0, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 0, 'C1Y': 0}
+Guessing assignment: L1Y=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 0, 'L2Y': 1, 'C3W': 0, 'O3W': 0, 'C2Y': 0, 'L2W': 0, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': 1, 'O1W': 0, 'C3Y': 0, 'L3Y': 0, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 0, 'C1Y': 0}
+Backtracking
+Guessing assignment: L1Y=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 0, 'L2Y': 1, 'C3W': 0, 'O3W': 0, 'C2Y': 0, 'L2W': 0, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': 0, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 0, 'C1Y': 0}
+Guessing assignment: C2Y=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 0, 'L2Y': 1, 'C3W': 0, 'O3W': 0, 'C2Y': 1, 'L2W': 0, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': 0, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 0, 'C1Y': 0}
+Backtracking
+Guessing assignment: C2Y=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 0, 'L2Y': 1, 'C3W': 0, 'O3W': 0, 'C2Y': -1, 'L2W': 0, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': 0, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 0, 'C1Y': 0}
+Guessing assignment: L3Y=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 0, 'L2Y': 1, 'C3W': 0, 'O3W': 0, 'C2Y': -1, 'L2W': 0, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': 1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 0, 'C1Y': 0}
+Backtracking
+Guessing assignment: L3Y=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 0, 'L2Y': 1, 'C3W': 0, 'O3W': 0, 'C2Y': -1, 'L2W': 0, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 0, 'C1Y': 0}
+Guessing assignment: L2W=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 0, 'L2Y': 1, 'C3W': 0, 'O3W': 0, 'C2Y': -1, 'L2W': 1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 0, 'C1Y': 0}
+Backtracking
+Guessing assignment: L2W=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 0, 'L2Y': 1, 'C3W': 0, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 0, 'C1Y': 0}
+Guessing assignment: C1B=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 1, 'L2Y': 1, 'C3W': 0, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 0, 'C1Y': 0}
+Guessing assignment: C3W=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 1, 'L2Y': 1, 'C3W': 1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 0, 'C1Y': 0}
+Guessing assignment: L1B=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 1, 'L2Y': 1, 'C3W': 1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 1, 'C1Y': 0}
+Backtracking
+Guessing assignment: L1B=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 1, 'L2Y': 1, 'C3W': 1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': 0}
+Guessing assignment: C1Y=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 1, 'L2Y': 1, 'C3W': 1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': 1}
+Backtracking
+Guessing assignment: C1Y=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 1, 'L2Y': 1, 'C3W': 1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Guessing assignment: C2B=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 1, 'C1B': 1, 'L2Y': 1, 'C3W': 1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Backtracking
+Guessing assignment: C2B=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': 1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Guessing assignment: O1W=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': 1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 1, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Backtracking
+Guessing assignment: O1W=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': 1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Guessing assignment: C3Y=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': 1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': 1, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Backtracking
+Guessing assignment: C3Y=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': 1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': -1, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Guessing assignment: O3W=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': 1, 'O3W': 1, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': -1, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Backtracking
+Guessing assignment: O3W=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': 1, 'O3W': -1, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': -1, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Guessing assignment: C1W=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': 1, 'O3W': -1, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': -1, 'L3Y': -1, 'C1W': 1, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Backtracking
+Guessing assignment: C1W=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': 1, 'O3W': -1, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': -1, 'L3Y': -1, 'C1W': -1, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Guessing assignment: C3B=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': 1, 'O3W': -1, 'C2Y': -1, 'L2W': -1, 'C3B': 1, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': -1, 'L3Y': -1, 'C1W': -1, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Backtracking
+Guessing assignment: C3B=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': 1, 'O3W': -1, 'C2Y': -1, 'L2W': -1, 'C3B': -1, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': -1, 'L3Y': -1, 'C1W': -1, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Backtracking
+Guessing assignment: C3W=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 1, 'L2Y': 1, 'C3W': -1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 0, 'C1Y': 0}
+Guessing assignment: L1B=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 1, 'L2Y': 1, 'C3W': -1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': 1, 'C1Y': 0}
+Backtracking
+Guessing assignment: L1B=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 1, 'L2Y': 1, 'C3W': -1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': 0}
+Guessing assignment: C1Y=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 1, 'L2Y': 1, 'C3W': -1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': 1}
+Backtracking
+Guessing assignment: C1Y=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 0, 'C1B': 1, 'L2Y': 1, 'C3W': -1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Guessing assignment: C2B=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': 1, 'C1B': 1, 'L2Y': 1, 'C3W': -1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Backtracking
+Guessing assignment: C2B=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': -1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 0, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Guessing assignment: O1W=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': -1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': 1, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Backtracking
+Guessing assignment: O1W=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': -1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': 0, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Guessing assignment: C3Y=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': -1, 'O3W': 0, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': 1, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Guessing assignment: O3W=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': -1, 'O3W': 1, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': 1, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Backtracking
+Guessing assignment: O3W=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': -1, 'O3W': -1, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': 1, 'L3Y': -1, 'C1W': 0, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Guessing assignment: C1W=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': -1, 'O3W': -1, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': 1, 'L3Y': -1, 'C1W': 1, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Backtracking
+Guessing assignment: C1W=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': -1, 'O3W': -1, 'C2Y': -1, 'L2W': -1, 'C3B': 0, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': 1, 'L3Y': -1, 'C1W': -1, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Guessing assignment: C3B=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': -1, 'O3W': -1, 'C2Y': -1, 'L2W': -1, 'C3B': 1, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': 1, 'L3Y': -1, 'C1W': -1, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Backtracking
+Guessing assignment: C3B=-1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': -1, 'O3W': -1, 'C2Y': -1, 'L2W': -1, 'C3B': -1, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': 1, 'L3Y': -1, 'C1W': -1, 'O1Y': 1, 'C2W': 0, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+Guessing assignment: C2W=1
+{'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': -1, 'O3W': -1, 'C2Y': -1, 'L2W': -1, 'C3B': -1, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': 1, 'L3Y': -1, 'C1W': -1, 'O1Y': 1, 'C2W': 1, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+
+Solved with model:
+ {'O2Y': -1, 'L2B': -1, 'L1W': 1, 'C2B': -1, 'C1B': 1, 'L2Y': 1, 'C3W': -1, 'O3W': -1, 'C2Y': -1, 'L2W': -1, 'C3B': -1, 'L3B': 1, 'O2W': 1, 'L3W': -1, 'L1Y': -1, 'O1W': -1, 'C3Y': 1, 'L3Y': -1, 'C1W': -1, 'O1Y': 1, 'C2W': 1, 'O3Y': 1, 'L1B': -1, 'C1Y': -1}
+True values: L1W C1B L2Y L3B O2W C3Y O1Y C2W O3Y 
+DPLL Calls: 50
+UCH: False

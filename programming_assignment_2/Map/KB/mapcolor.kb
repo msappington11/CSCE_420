@@ -1,0 +1,64 @@
+# neighbors different
+(implies WAR (and (not NTR) (not SAR)))
+(implies WAG (and (not NTG) (not SAG)))
+(implies WAB (and (not NTB) (not SAB)))
+
+(implies NTR (and (not WAR) (not SAR) (not QR)))
+(implies NTG (and (not WAG) (not SAG) (not QG)))
+(implies NTB (and (not WAB) (not SAB) (not QB)))
+
+(implies SAR (and (not WAR) (not NTR) (not QR) (not NSR) (not VR)))
+(implies SAG (and (not WAG) (not NTG) (not QG) (not NSG) (not VG)))
+(implies SAB (and (not WAB) (not NTB) (not QB) (not NSB) (not VB)))
+
+(implies QR (and (not NTR) (not SAR) (not NSR)))
+(implies QB (and (not NTB) (not SAB) (not NSB)))
+(implies QG (and (not NTG) (not SAG) (not NSG)))
+
+(implies NSR (and (not QR) (not SAR) (not VR)))
+(implies NSB (and (not QB) (not SAB) (not VB)))
+(implies NSG (and (not QG) (not SAG) (not VG)))
+
+(implies VR (and (not NSR) (not SAR)))
+(implies VG (and (not NSG) (not SAG)))
+(implies VB (and (not NSB) (not SAB)))
+
+
+# possible colors
+(or NTG NTB NTR)
+(or SAG SAB SAR)
+(or QG QR QB)
+(or NSG NSB NSR)
+(or VR VG VB)
+(or TR TG TB)
+(or WAR WAG WAB)
+
+
+# can only be 1 color
+(implies NTG (and (not NTR) (not NTB)))
+(implies NTR (and (not NTG) (not NTB)))
+(implies NTB (and (not NTR) (not NTG)))
+
+(implies SAG (and (not SAR) (not SAB)))
+(implies SAR (and (not SAG) (not SAB)))
+(implies SAB (and (not SAR) (not SAG)))
+
+(implies QG (and (not QR) (not QB)))
+(implies QR (and (not QG) (not QB)))
+(implies QB (and (not QR) (not QG)))
+
+(implies NSG (and (not NSR) (not NSB)))
+(implies NSB (and (not NSR) (not NSG)))
+(implies NSR (and (not NSG) (not NSB)))
+
+(implies VG (and (not VR) (not VB)))
+(implies VB (and (not VR) (not VG)))
+(implies VR (and (not VG) (not VB)))
+
+(implies TG (and (not TR) (not TB)))
+(implies TB (and (not TR) (not TG)))
+(implies TR (and (not TG) (not TB)))
+
+(implies WAG (and (not WAR) (not WAB)))
+(implies WAB (and (not WAR) (not WAG)))
+(implies WAR (and (not WAG) (not WAB)))

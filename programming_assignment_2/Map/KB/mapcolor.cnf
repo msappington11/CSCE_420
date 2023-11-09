@@ -1,0 +1,259 @@
+# # neighbors different
+# (implies WAR (and (not NTR) (not SAR)))
+
+-NTR -WAR
+-SAR -WAR
+
+# (implies WAG (and (not NTG) (not SAG)))
+
+-NTG -WAG
+-SAG -WAG
+
+# (implies WAB (and (not NTB) (not SAB)))
+
+-NTB -WAB
+-SAB -WAB
+
+# 
+# (implies NTR (and (not WAR) (not SAR) (not QR)))
+
+-WAR -NTR
+-SAR -NTR
+-QR -NTR
+
+# (implies NTG (and (not WAG) (not SAG) (not QG)))
+
+-WAG -NTG
+-SAG -NTG
+-QG -NTG
+
+# (implies NTB (and (not WAB) (not SAB) (not QB)))
+
+-WAB -NTB
+-SAB -NTB
+-QB -NTB
+
+# 
+# (implies SAR (and (not WAR) (not NTR) (not QR) (not NSR) (not VR)))
+
+-WAR -SAR
+-NTR -SAR
+-QR -SAR
+-NSR -SAR
+-VR -SAR
+
+# (implies SAG (and (not WAG) (not NTG) (not QG) (not NSG) (not VG)))
+
+-WAG -SAG
+-NTG -SAG
+-QG -SAG
+-NSG -SAG
+-VG -SAG
+
+# (implies SAB (and (not WAB) (not NTB) (not QB) (not NSB) (not VB)))
+
+-WAB -SAB
+-NTB -SAB
+-QB -SAB
+-NSB -SAB
+-VB -SAB
+
+# 
+# (implies QR (and (not NTR) (not SAR) (not NSR)))
+
+-NTR -QR
+-SAR -QR
+-NSR -QR
+
+# (implies QB (and (not NTB) (not SAB) (not NSB)))
+
+-NTB -QB
+-SAB -QB
+-NSB -QB
+
+# (implies QG (and (not NTG) (not SAG) (not NSG)))
+
+-NTG -QG
+-SAG -QG
+-NSG -QG
+
+# 
+# (implies NSR (and (not QR) (not SAR) (not VR)))
+
+-QR -NSR
+-SAR -NSR
+-VR -NSR
+
+# (implies NSB (and (not QB) (not SAB) (not VB)))
+
+-QB -NSB
+-SAB -NSB
+-VB -NSB
+
+# (implies NSG (and (not QG) (not SAG) (not VG)))
+
+-QG -NSG
+-SAG -NSG
+-VG -NSG
+
+# 
+# (implies VR (and (not NSR) (not SAR)))
+
+-NSR -VR
+-SAR -VR
+
+# (implies VG (and (not NSG) (not SAG)))
+
+-NSG -VG
+-SAG -VG
+
+# (implies VB (and (not NSB) (not SAB)))
+
+-NSB -VB
+-SAB -VB
+
+# 
+# 
+# # possible colors
+# (or NTG NTB NTR)
+
+NTG NTB NTR
+
+# (or SAG SAB SAR)
+
+SAG SAB SAR
+
+# (or QG QR QB)
+
+QG QR QB
+
+# (or NSG NSB NSR)
+
+NSG NSB NSR
+
+# (or VR VG VB)
+
+VR VG VB
+
+# (or TR TG TB)
+
+TR TG TB
+
+# (or WAR WAG WAB)
+
+WAR WAG WAB
+
+# 
+# 
+# # can only be 1 color
+# (implies NTG (and (not NTR) (not NTB)))
+
+-NTR -NTG
+-NTB -NTG
+
+# (implies NTR (and (not NTG) (not NTB)))
+
+-NTG -NTR
+-NTB -NTR
+
+# (implies NTB (and (not NTR) (not NTG)))
+
+-NTR -NTB
+-NTG -NTB
+
+# 
+# (implies SAG (and (not SAR) (not SAB)))
+
+-SAR -SAG
+-SAB -SAG
+
+# (implies SAR (and (not SAG) (not SAB)))
+
+-SAG -SAR
+-SAB -SAR
+
+# (implies SAB (and (not SAR) (not SAG)))
+
+-SAR -SAB
+-SAG -SAB
+
+# 
+# (implies QG (and (not QR) (not QB)))
+
+-QR -QG
+-QB -QG
+
+# (implies QR (and (not QG) (not QB)))
+
+-QG -QR
+-QB -QR
+
+# (implies QB (and (not QR) (not QG)))
+
+-QR -QB
+-QG -QB
+
+# 
+# (implies NSG (and (not NSR) (not NSB)))
+
+-NSR -NSG
+-NSB -NSG
+
+# (implies NSB (and (not NSR) (not NSG)))
+
+-NSR -NSB
+-NSG -NSB
+
+# (implies NSR (and (not NSG) (not NSB)))
+
+-NSG -NSR
+-NSB -NSR
+
+# 
+# (implies VG (and (not VR) (not VB)))
+
+-VR -VG
+-VB -VG
+
+# (implies VB (and (not VR) (not VG)))
+
+-VR -VB
+-VG -VB
+
+# (implies VR (and (not VG) (not VB)))
+
+-VG -VR
+-VB -VR
+
+# 
+# (implies TG (and (not TR) (not TB)))
+
+-TR -TG
+-TB -TG
+
+# (implies TB (and (not TR) (not TG)))
+
+-TR -TB
+-TG -TB
+
+# (implies TR (and (not TG) (not TB)))
+
+-TG -TR
+-TB -TR
+
+# 
+# (implies WAG (and (not WAR) (not WAB)))
+
+-WAR -WAG
+-WAB -WAG
+
+# (implies WAB (and (not WAR) (not WAG)))
+
+-WAR -WAB
+-WAG -WAB
+
+# (implies WAR (and (not WAG) (not WAB)))
+
+-WAG -WAR
+-WAB -WAR
+
